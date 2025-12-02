@@ -1,0 +1,11 @@
+# Basic site settings -- change title/description if you want
+title: "My Site"
+description: "A short description of my site"
+url: "https://Linestech.github.io"
+baseurl: ""
+
+# Use the Cayman theme
+theme: jekyll-theme-cayman
+
+# Optional: pretty permalinks
+permalink: /:title/
