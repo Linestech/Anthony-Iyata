@@ -72,3 +72,4 @@ Feel free to reach out!
 ---
 
 © 2025 Anthony. Minimal portfolio powered by GitHub Pages.
+this is linestech 
