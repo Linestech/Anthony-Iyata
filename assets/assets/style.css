@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    scroll-behavior: smooth;
+}
+
+a { color: #00eaff; text-decoration: none; }
+a:hover { text-shadow: 0 0 8px #00eaff; }
+
+/* Navigation */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(6px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #00eaff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #001f33, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .highlight {
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: 2px solid #00eaff;
+    border-radius: 25px;
+    color: #00eaff;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00eaff;
+    color: #000;
+    box-shadow: 0 0 18px #00eaff;
+}
+
+/* Sections */
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 80px 0 40px;
+    color: #00eaff;
+}
+
+/* Project Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 0 40px;
+}
+
+.project-card {
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #00eaff33;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px #00eaff55;
+}
+
+/* Skills */
+.skill-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Contact */
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+    background: #0a0a0a;
+    color: #00eaffaa;
+}
